@@ -425,3 +425,12 @@ body{padding-bottom:54px}
 .brand{display:flex;align-items:center;text-decoration:none;flex-shrink:0}
 @media(max-width:768px){.site-logo{height:42px}}
 @media(max-width:480px){.site-logo{height:36px}}
+
+/* WDFM expansion - table and sibling links */
+.prose table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.92rem}
+.prose table thead tr{background:#14532D;color:#fff}
+.prose table th,.prose table td{padding:.65rem .85rem;border:1px solid #e2e5ea;text-align:left}
+.prose table tbody tr:nth-child(even){background:#F7F9FC}
+.prose table caption{caption-side:bottom;font-size:.8rem;color:#6b7280;padding-top:.5rem;text-align:left}
+.sibling-links{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.5rem 1.5rem}
+.sibling-links li a{color:#14532D;font-weight:600}
